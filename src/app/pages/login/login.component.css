@@ -1,0 +1,54 @@
+/* Common styles for all devices */
+.btn-theme {
+    height: 40px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+    width: 100%; /* Button expands to full width on mobile */
+}
+
+.shadow-effect {
+    border: none;
+    box-shadow: 0px 0px 15px -5px rgba(71, 114, 254, 0.3); /* Reduced shadow effect for mobile */
+}
+
+.bg-theme {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-theme {
+    background-color: var(--secondary-color);
+}
+
+.text-theme-primary {
+    color: var(--primary-color);
+}
+
+.block {
+    display: block;
+    width: 100%; /* Blocks occupy full width on mobile */
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.margin-left {
+    margin-left: 8% !important; /* Adjusted margin for mobile */
+}
+
+/* Larger screens (PCs and laptops) */
+@media (min-width: 768px) {
+    .shadow-effect {
+        box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+    }
+
+    .block {
+        width: 25%;
+    }
+
+    .margin-left {
+        margin-left: 38% !important;
+    }
+}

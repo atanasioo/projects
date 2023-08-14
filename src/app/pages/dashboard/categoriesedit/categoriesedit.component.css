@@ -1,0 +1,36 @@
+/* Common styles for all devices */
+.shadow-effect {
+    border: none;
+    box-shadow: 0px 0px 15px -5px rgba(71, 114, 254, 0.3); /* Reduced shadow effect for mobile */
+}
+
+.btn-theme {
+    height: 40px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+    width: 100%; /* Button expands to full width on mobile */
+}
+
+.margin-left {
+    margin-left: 8px !important; /* Adjusted margin for mobile */
+}
+.bg-theme {
+    background-color: var(--primary-color);
+}
+
+/* Larger screens (PCs and laptops) */
+@media (min-width: 768px) {
+    .shadow-effect {
+        box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+    }
+
+    .margin-left {
+        margin-left: 10px !important;
+    }
+}
+
+
+
+
+    

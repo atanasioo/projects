@@ -1,0 +1,18 @@
+.bg-theme{
+    background-color: var(--primary-color);
+}
+
+.margin-left{
+    margin-left: 2 !important;
+}
+
+.bg-secondary-theme{
+    background-color: var(--secondary-color);
+}
+.button-container {
+    overflow: hidden;
+    
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
